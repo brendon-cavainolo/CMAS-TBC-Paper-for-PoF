@@ -72,25 +72,27 @@
 \author{B. Cavainolo}
  \email{brendon.cavainolo@ucf.edu}
 
- \affiliation{Mechanical and Aerospace Engineering, University of Central Florida}%Lines break automatically or can be forced with \\
+ \affiliation{Mechanical and Aerospace Engineering, University of Central Florida. 12760 Pegasus Drive
+ Orlando, FL 32816. United States.}%Lines break automatically or can be forced with \\
 \author{R. Naraparaju}%
 \affiliation{ 
-Institute of Materials Research, German Aerospace Center (DLR)%\\This line break forced with \textbackslash\textbackslash
+Institute of Materials Research, German Aerospace Center (DLR). Linder Höhe, 51147 Köln, Germany.%\\This line break forced with \textbackslash\textbackslash
 }%
 \author{M-R. Kabir}%
 \affiliation{ 
-Institute of Materials Research, German Aerospace Center (DLR)%\\This line break forced with \textbackslash\textbackslash
+Institute of Materials Research, German Aerospace Center (DLR). Linder Höhe, 51147 Köln, Germany%\\This line break forced with \textbackslash\textbackslash
 }%
 
 \author{M. P. Kinzel}
- \affiliation{Aerospace Engineering, Embry-Riddle Aeronautical University}%Lines break automatically or can be forced with \\
+ \affiliation{Aerospace Engineering, Embry-Riddle Aeronautical University. 1 Aerospace Boulevard
+ Daytona Beach, FL 32114. United States.}%Lines break automatically or can be forced with \\
 
 
 \date{\today}% It is always \today, today,
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Calcium-Magnesium-Alumino-Silicate (CMAS) is a category of atmospheric debris in the form of dirt, sand, and ash that damage thermal barrier coatings (TBC) in aircraft engines. The damage is not a direct result of erosion, but rather, CMAS melts in engines and impacts the TBCs. In this state, the CMAS can infiltrate the TBC microstructure which leads to surface damage from secondary stresses associated with thermal loading and expansion in the micro-structure. Understanding the fluid dynamic processes of the infiltration is key to develop TBCs that mitigate TBC infiltration damage. The fluidic processes are evaluated using micro-structure-resolving, finite-volume, multiphase, volume-of-fluid computational fluid dynamics simulations (CFD). CFD results using experimentally measured temperature-dependent polynomial CMAS viscosity are compared to experiments and analytical models and indicate that feathery-shaped microstructure in TBCs inhibit CMAS infiltration more than rectangular channel TBCs. Such observations are conditional on the Ohnesorge Number (Oh). For low Oh values, the rectangular channel reduces infiltration, while the feathery channel is more effective at reducing infiltration for higher Oh values. 3D CFD results under-predicted experimental and theoretical infiltraiton depth.  
+Calcium-Magnesium-Alumino-Silicate (CMAS) is a category of atmospheric debris in the form of dirt, sand, and ash that damage thermal barrier coatings (TBC) in aircraft engines. The damage is not a direct result of erosion, but rather, CMAS melts in engines and impacts the TBCs. In this state, the CMAS can infiltrate the TBC microstructure which leads to surface damage from secondary stresses associated with thermal loading and expansion in the micro-structure. Understanding the fluid dynamic processes of the infiltration is key to develop TBCs that mitigate TBC infiltration damage. The fluidic processes are evaluated using micro-structure-resolving, finite-volume, multiphase, volume-of-fluid computational fluid dynamics simulations (CFD). CFD results using experimentally measured temperature-dependent polynomial CMAS viscosity are compared to experiments and analytical models and indicate that feathery-shaped microstructure in TBCs inhibit CMAS infiltration more than rectangular channel TBCs. Such observations are conditional on the Ohnesorge Number (Oh). For low Oh values, the rectangular channel reduces infiltration, while the feathery channel is more effective at reducing infiltration for higher Oh values. Three-dimensional CFD results under-predicted experimental and theoretical infiltraiton depth.  
 A novel infiltration model for feathery channels, the ``Feathery Pipe-Network Model'' (FPNM) was implemented. FPNM results agree with experiments and other analytical models. Using FPNM in conjunction with the concentric-pipe model achieves a 25\% margin-of-error when evaluated against experimental results. This is a 15\% reduction in error compared to using the open-pipe and concentric-pipe models as the prediction. This enhanced prediction model can lead to safer and more cost-effective aircraft operation in debris-laden environments.
 
 
@@ -227,9 +229,9 @@ Solidification is captured in the CMAS using an approach that couples to the VOF
 
 \subsubsection{Geometry, Mesh, and Boundary Conditions}
 
-In this study, several different microstructures (shown in Fig.~\ref{fig:dimensions}) are evaluated to represent the micro-scale pores. Firstly, a rectangular micro-channel, represented by a 2D plane extending infinitely into the z-direction. The rectangular channel's purpose is to serve as a benchmark; a case that allows the numerical methods in this model to be compared to analytical models for capillary flow. 
+In this study, several different microstructures (shown in Fig.~\ref{fig:dimensions}) are evaluated to represent the micro-scale pores. Firstly, a rectangular micro-channel, represented by a two-dimensional (2D) plane extending infinitely into the z-direction. The rectangular channel's purpose is to serve as a benchmark; a case that allows the numerical methods in this model to be compared to analytical models for capillary flow. 
 
-This rectangular geometry was  evaluated against the results from a feathery micro-channel. This feathery micro-channel was scanned by DLR scientists \cite{Sirigiri2018} and a representation of the geometry was converted into a 2D and 3D geometry, shown in Fig. \ref{fig:dimensions}. The 3D geometry is just the 2D geometry extended into the page. Here, the feathery pattern shown on the right is repeated downward until the TBC column is 200 $\mu m$ deep. This is half the depth of the TBC sample used in experiments \cite{Naraparaju2019}. It should be noted that a typical TBC coating on an aircraft component is $\approx 150 - 180~\mu m$ deep. The TBC coating used in the experiments was larger in order to perform longer kinetic experiments. 
+This rectangular geometry was  evaluated against the results from a feathery micro-channel. This feathery micro-channel was scanned by DLR scientists \cite{Sirigiri2018} and a representation of the geometry was converted into a 2D and three-dimensional (3D) geometry, shown in Fig. \ref{fig:dimensions}. The 3D geometry is just the 2D geometry extended into the page. Here, the feathery pattern shown on the right is repeated downward until the TBC column is 200 $\mu m$ deep. This is half the depth of the TBC sample used in experiments \cite{Naraparaju2019}. It should be noted that a typical TBC coating on an aircraft component is $\approx 150 - 180~\mu m$ deep. The TBC coating used in the experiments was larger in order to perform longer kinetic experiments. 
 
 The geometry is then meshed using an unstructured trimmed-cell mesh which can be seen in Fig. \ref{fig:mesh}. The 3D simulations used adaptive mesh-refinement (AMR) at the air-CMAS interface. 
 

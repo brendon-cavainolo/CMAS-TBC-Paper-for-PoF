@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{51}%
+\begin{thebibliography}{45}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -139,6 +139,9 @@
 \bibitem [{\citenamefont {Mikaelian}\ and\ \citenamefont {Jones}(2020)}]{Mikaelian2020}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Mikaelian}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Jones}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Modeling of capillary-driven microfluidic networks using electric circuit analogy},}\ }\href {\doibase 10.1007/s42452-020-2088-6} {\bibfield  {journal} {\bibinfo  {journal} {SN Applied Sciences}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {415} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waghmare}\ and\ \citenamefont {Mitra}(2010)}]{WAGHMARE2010561}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Waghmare}}\ and\ \bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont {Mitra}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Finite reservoir effect on capillary flow of microbead suspension in rectangular microchannels},}\ }\href {\doibase https://doi.org/10.1016/j.jcis.2010.08.039} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Colloid and Interface Science}\ }\textbf {\bibinfo {volume} {351}},\ \bibinfo {pages} {561--569} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Washburn}(1921)}]{Washburn19213}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~W.}\ \bibnamefont {Washburn}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The Dynamics of Capillary Flow},}\ }\href {\doibase 10.1103/PhysRev.17.273} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {273--283} (\bibinfo {year} {1921})}\BibitemShut {NoStop}%
@@ -181,25 +184,4 @@
 \bibitem [{\citenamefont {Zhao}, \citenamefont {Levi},\ and\ \citenamefont {Wadley}(2014)}]{ZHAO201474}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Zhao}}, \bibinfo {author} {\bibfnamefont {C.~G.}\ \bibnamefont {Levi}}, \ and\ \bibinfo {author} {\bibfnamefont {H.~N.}\ \bibnamefont {Wadley}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Molten silicate interactions with thermal barrier coatings},}\ }\href {\doibase https://doi.org/10.1016/j.surfcoat.2014.04.007} {\bibfield  {journal} {\bibinfo  {journal} {Surface and Coatings Technology}\ }\textbf {\bibinfo {volume} {251}},\ \bibinfo {pages} {74--86} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Wolfe}, \citenamefont {Singh},\ and\ \citenamefont {Narasimhan}(2003)}]{EBPVD}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Wolfe}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Singh}}, \ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Narasimhan}},\ }\bibfield  {title} {{\selectlanguage {English (US)}\enquote {\bibinfo {title} {Synthesis and characterization of multilayered TiC/TiB2 coatings deposited by ion beam assisted, electron beam-physical vapor deposition (EB-PVD)},}\ }}\href {\doibase 10.1016/S0257-8972(02)00666-7} {\bibfield  {journal} {\bibinfo  {journal} {Surface and Coatings Technology}\ }\textbf {\bibinfo {volume} {165}},\ \bibinfo {pages} {8--25} (\bibinfo {year} {2003})},\ \bibinfo {note} {funding Information: This material is based upon work supported by the Department of the Navy Space and Naval Warfare Systems Command under Contract No. N00039-97-D-0042, Delivery Order No. 0215.}\BibitemShut {Stop}%
-\bibitem [{\citenamefont {Waghmare}\ and\ \citenamefont {Mitra}(2010)}]{WAGHMARE2010561}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Waghmare}}\ and\ \bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont {Mitra}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Finite reservoir effect on capillary flow of microbead suspension in rectangular microchannels},}\ }\href {\doibase https://doi.org/10.1016/j.jcis.2010.08.039} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Colloid and Interface Science}\ }\textbf {\bibinfo {volume} {351}},\ \bibinfo {pages} {561--569} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Vogel}\ \emph {et~al.}(2018)\citenamefont {Vogel}, \citenamefont {Durant}, \citenamefont {Cassiani}, \citenamefont {Clarkson}, \citenamefont {Slaby}, \citenamefont {Diplas}, \citenamefont {Krüger},\ and\ \citenamefont {Stohl}}]{Vogel2018}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Vogel}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Durant}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Cassiani}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Clarkson}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Slaby}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Diplas}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Krüger}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Stohl}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Simulation of Volcanic Ash Ingestion Into a Large Aero Engine: Particle–Fan Interactions},}\ }\href {\doibase 10.1115/1.4041464} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Turbomachinery}\ }\textbf {\bibinfo {volume} {141}} (\bibinfo {year} {2018}),\ 10.1115/1.4041464}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bojdo}\ and\ \citenamefont {Filippone}(2019)}]{Bojdo2019}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Bojdo}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Filippone}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A Simple Model to Assess the Role of Dust Composition and Size on Deposition in Rotorcraft Engines},}\ }\href {https://www.mdpi.com/2226-4310/6/4/44} {\bibfield  {journal} {\bibinfo  {journal} {Aerospace}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {44} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Weislogel}\ and\ \citenamefont {Ross}(1990)}]{Weislogel}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Weislogel}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ross}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Surface settling in partially filled containers upon step reduction in gravity},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {NASA}\ }\textbf {\bibinfo {volume} {TM}} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2024)\citenamefont {Liu}, \citenamefont {Yan}, \citenamefont {Sun}, \citenamefont {Liu}, \citenamefont {Yang},\ and\ \citenamefont {Zhou}}]{LIU2024131158}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Yan}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Sun}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Yang}}, \ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Zhou}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Numerical assessment of thermal insulation and stress responses in film-cooled turbine vane thermal barrier coatings under CMAS deposition conditions},}\ }\href {\doibase https://doi.org/10.1016/j.surfcoat.2024.131158} {\bibfield  {journal} {\bibinfo  {journal} {Surface and Coatings Technology}\ }\textbf {\bibinfo {volume} {489}},\ \bibinfo {pages} {131158} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Schechter}(2010)}]{Thehumanconditionblog_2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Schechter}},\ }\href {https://web.archive.org/web/20100419004949/http://blog.newsweek.com/blogs/thehumancondition/archive/2010/04/16/smoked-out-why-volcanic-ash-and-planes-fight-for-the-same-small-air-space.aspx} {} (\bibinfo {year} {2010})\BibitemShut {NoStop}%
 \end{thebibliography}%
